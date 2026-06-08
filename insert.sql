@@ -1,3 +1,4 @@
+--Dummy data initially used to create some example instances of CVs
 INSERT INTO cvs(name, email, password, dob, keyprogramming, profile, education, URLlinks) VALUES
 ('Jack Spy', 'jspy@yahoo.com', 'hashed_password_1', '2005-01-01', 'Python, Java', 'Placement student at Aston University. I am currently pursuing a degree in Computer Science and currently work at IBM as a placement student.', 'A-Levels and GCSEs', 'https://linkedin.com/'),
 ('Emily Davis', 'emily.davis@gmail.com', 'hashed_password_2', '2007-05-15', 'JavaScript, React', 'First year cybersecurity student at Aston University.', 'A-Levels and GCSEs', 'https://github.com/'),
