@@ -1,0 +1,198 @@
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /*Prevents horizontal scrolling on smaller screens*/
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;/*Sets the font of all headings to this family*/
+    font-size: 30px ; /*Sets the size of the font to 30px*/
+    color:white;
+}
+body{
+    margin: 0;/*This ensures that there is no extra blank space outside the main parts of the website so that everything can fit into the screen*/
+    max-width: 1840px;/*max-width ensures that there is a max limit to how wide the website can get.*/
+    background-color: rgb(131,29,142);/*Sets the background of the entire website to this colour*/
+    color: white;/*Sets the default text colour to white*/
+}
+h2,h3{
+    font-family: Arial, Helvetica, sans-serif;/*Sets the font of all headings to this family*/
+    font-size: 18px ; /*Sets the size of the font to 18px*/
+}
+p, li, a{
+    font-family: Arial, Helvetica, sans-serif;/*Sets the font of all <p> and <li> text to this family*/
+    font-size: 16px ; /*Sets the size of all <p> and <li> text to 16px*/
+}
+#main-header {/*Following changes will only exclusively affect the header*/
+    height : 80px; /*Sets the height of the header to 80px*/
+    display: flex; /*Sets the display to flex so that all items in the header are in a row and can be easily aligned*/
+    align-items: center; /*Aligns everything centrally*/
+    justify-content: space-between; /*Distributes items with equal space around each item*/
+    flex-wrap: wrap; /*Allows flex items to wrap onto multiple lines if needed*/
+    width: 100%; /*Header takes up width of whole screen*/
+    margin: 0 auto; /*Centers the element horizontally within its container*/
+    padding: 20px 40px; /*Adds 20px padding to the top and bottom, and 40px padding to the left and right*/
+    background-color: rgb(112, 31, 121);
+}
+#main-header button, #forgot-password {
+    background-color: white;/*Sets the background colour of the submit form button to white*/
+    color: rgb(131,29,142);/*Sets text in button to this colour*/
+    padding: 10px 20px;
+    border: none;/*Removes any black borders on the buttons*/
+    border-radius: 5px;/*Rounds all corners with a 5px radius*/
+    cursor: pointer;/*Changes the cursor to a pointer when the user hovers over the button*/
+    font-size: 16px;/*Sets the font size to 16px*/
+    font-weight: bolder;/*Sets the font to be bolder than the regular bold text*/
+}
+#nav{
+    display: flex; /*Sets the display to flex so that all items in the header are in a row and can be easily aligned*/
+    align-items: right; /*Aligns everything centrally*/
+    justify-content: space-around; /*Distributes items with equal space around each item*/
+    width: 30%; 
+    flex-wrap: wrap; /*Allows flex items to wrap onto multiple lines if needed*/
+    padding: 20px;
+}
+#welcome{
+    border: 3px solid black;/*Sets the border size to 3px and colour to a solid black*/
+    border-radius: 6px;/*Rounds all corners with a 6px radius*/
+    padding: 10px;/*Adds 10px padding to all sides*/
+    margin: 10px;/*Adds 10px margin to all sides*/
+    background-color:white;/*Sets the background colour to white*/
+    color: rgb(131,29,142);/*Sets the text colour to this colour*/
+}
+main {
+    margin: 20px; /*Sets the margin to 20px in all main sections so that text outside of certain sections are not pushed to the very edge of the screen.*/
+}
+#welcome blockquote p {
+    font-style: italic; /*Sets the style of all text in the main blockquote area, not the footer, to italic*/
+    font-weight: bold; /*Sets the text within the main blockquote area, not the footer, to bold*/
+}
+#welcome blockquote footer {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#welcome blockquote {
+    height: 80px; /*Sets the height of the blockquote area to 80px*/
+    font-family: Arial, Helvetica, sans-serif;/*Sets the family of the font within the blockquotes in the project section to the same as other sections*/
+    font-size: 16px; /*Sets the size of the blockquote text to 16px*/
+    width: 45%; /*Sets the width of the blockquote area to be 45% of it's full size*/
+    text-align: left; /*Aligns all items to the left of the blockquote area*/
+    padding: 10px; /*Adds 10px padding to all sides*/
+    margin: 10px; /*Adds 10px margin to all sides*/
+    border-left: 5px solid gray;/*Sets the size of the left border to 5px and gives it a solid grey colour*/
+    background-color: whitesmoke;
+}
+#reviews{
+    display: flex; /*Sets the display to flex so that all items in the header are in a row and can be easily aligned*/
+    align-items: right; /*Aligns everything centrally*/
+    justify-content: space-around; /*Distributes items with equal space around each item*/
+    flex-wrap: wrap; /*Allows flex items to wrap onto multiple lines if needed*/
+}
+#welcome img{
+    float: right;/*Places all images on the right*/
+    width: 300px;/*Sets size of Treasure Chase (Project 1) photo to be 300px in width and 190px in height*/
+    height: 190px;
+}
+#main-footer {
+    width: 100%; /*Header takes up width of whole screen*/
+    margin: 0 auto; /*Centers the element horizontally within its container*/
+    padding: 20px 40px; /*Adds 20px padding to the top and bottom, and 40px padding to the left and right*/
+    border-top: 7px solid black;/*Puts a solid black border at the top of the footer*/
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;/*Sets the font of all text in the footer to this family*/
+    font-size: 16px; /*Sets the size of all text in the footer to 16px*/
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;/*Sets the font of all <p> and <li> text to this family*/
+    font-size: 16px ; /*Sets the size of all <p> and <li> text to 16px*/
+    color: white
+}
+#register, #login, #create {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;/*Sets the text in the form to bold*/
+    color: black;/*Sets the text colour to black*/
+    text-align: center;/*Sets the text centrally*/
+    border: 7px solid black;/*Sets the size of the border to 7px and gives it a solid black colour*/
+    border-radius: 10px;/*Rounds all corners with a 10px radius*/
+    width: 80%;/*Sets the width to 80% of the full size*/
+    padding: 10px;/*Adds 10px padding to all sides*/
+    margin: 0 auto 10px auto;/*No top margin, 10px bottom margin, auto left and right margin to center form*/
+    background-color: whitesmoke;/*Sets the background colour to whitesmoke*/
+}
+#register textarea, #register input, #loginForm input{ 
+    width: 80%;/*Sets width to 80% of full size*/
+    padding: 8px;/*Adds 8px padding to all sides*/
+    margin: 5px 0 15px 0; /*5px top margin, 15px bottom margin, no left and right margin*/
+    border: 3px solid black;/*Sets the size of the border to 3px and gives it a solid black colour*/
+    border-radius: 4px;/*Rounds all corners with a 4px radius*/
+    box-sizing: border-box;/*Includes padding and border in the element’s width and height*/
+    font-family: Arial, Helvetica, sans-serif;/*Sets the family of the font within the contact form boxes to the same as other sections*/
+}
+#create textarea, #create input { 
+    width: 80%;/*Sets width to 80% of full size*/
+    padding: 8px;/*Adds 8px padding to all sides*/
+    margin: 5px 0 15px 0; /*5px top margin, 15px bottom margin, no left and right margin*/
+    border: 3px solid black;/*Sets the size of the border to 3px and gives it a solid black colour*/
+    border-radius: 4px;/*Rounds all corners with a 4px radius*/
+    box-sizing: border-box;/*Includes padding and border in the element’s width and height*/
+    font-family: Arial, Helvetica, sans-serif;/*Sets the family of the font within the contact form boxes to the same as other sections*/
+}
+
+#searchBar {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#searchBar input[type="text"] {
+    padding: 8px 12px;
+    width: 300px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+#searchBar button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+#searchResults ul {
+    list-style: none;
+    padding: 0;
+}
+
+#searchResults ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+#noResults {
+    text-align: center;
+}
+
+#cvTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#cvTable th, #cvTable td {
+    border: 1px solid #ccc;
+    padding: 10px 14px;
+    text-align: left;
+}
+
+#cvTable thead {
+    background-color: black;
+}
+
+#cvTable tbody tr:nth-child(even) {
+    background-color: #ad20ad;
+}
+
+#cvTable tbody tr:hover {
+    background-color: black;
+}
