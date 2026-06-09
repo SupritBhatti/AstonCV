@@ -33,14 +33,11 @@ The application follows a three-tier architecture:
 - **Data Layer:** MySQL database
 
 ## Screenshots
-<img width="1919" height="966" alt="image" src="https://github.com/user-attachments/assets/72884d74-e026-43f0-89a0-508ebf5b081d" />
-Screenshot of the home page
+<img width="1919" height="966" alt="image" src="https://github.com/user-attachments/assets/72884d74-e026-43f0-89a0-508ebf5b081d" /> Screenshot of the home page
 
-<img width="1919" height="658" alt="image" src="https://github.com/user-attachments/assets/019bc012-1b96-49f9-9426-7d9a6845afc2" />
-Screenshot of the login page
+<img width="1919" height="658" alt="image" src="https://github.com/user-attachments/assets/019bc012-1b96-49f9-9426-7d9a6845afc2" /> Screenshot of the login page
 
-<img width="1919" height="961" alt="image" src="https://github.com/user-attachments/assets/c22ba8f3-a435-44ba-a7d8-c20d0c6790cb" />
-Screenshot of registration page
+<img width="1919" height="961" alt="image" src="https://github.com/user-attachments/assets/c22ba8f3-a435-44ba-a7d8-c20d0c6790cb" /> Screenshot of registration page
 
 ## What I Learned
 Through this project, I gained experience in:
@@ -58,4 +55,7 @@ Potential future improvements include:
 - More features such as a rating feature to allow users to rate other CVs and give feedback as well as recieve feedback for themselves.
 
 ## Notes
-This project was created for educational purposes as part of the previously mentioned university module.
+All data that currently exists in the database at the time of the initial upload is dummy data and not real.
+
+## Link
+Link to website: http://250138351.cs2410-web01pvm.aston.ac.uk/aston_CV
